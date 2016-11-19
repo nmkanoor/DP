@@ -25,6 +25,6 @@ class eBook extends Book {
 	}
 }
 $paperback = new Paperback;
-$paperback -> setTitle("The Greatest Paperback Ever");
+$paperback -> setTitle("The Art of War");
 $paperback -> printBook();
 
