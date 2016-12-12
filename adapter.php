@@ -26,10 +26,10 @@ class BookAdapter
 	}
 	public function getAuthorandTitle()
 	{
-		return $this -> book -> getTitle().' by '.$this -> book ->
-		getAuthor();
+		return $this -> book -> getTitle().' by '.$this -> book -> getAuthor();
 	}
 }
 $book = new Book('Khaled Hosseini', 'A Thousand Splendid Suns');
 $bookAdapter = new BookAdapter($book);
 echo 'Author and Title: '.$bookAdapter->getAuthorAndTitle();
+
